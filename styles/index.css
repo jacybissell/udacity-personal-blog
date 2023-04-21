@@ -1,2 +1,28 @@
 @import url("blog-post.css");
 @import url("colors.css");
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header img {
+  width: 20px;
+  height: 20px;
+}
+.card-link {
+  text-decoration: none;
+}
+#main {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-items: center;
+  justify-content: space-around;
+  grid-row-gap: 50px;
+}
+.card {
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 40px;
+}
